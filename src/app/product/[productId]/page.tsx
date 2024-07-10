@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function productlist({ params}:{
+export default function productlist({ params,}:{
     params:{productId:string};
+
 }) {
   return (
     <div>
@@ -11,3 +12,4 @@ export default function productlist({ params}:{
 }
 
 // To used Next js usig folder name we are maintained as a props throght changed  
+// 1 to 100 times aap ye use kar sakte hai as a folder ka nam deke or use props send karke!!
